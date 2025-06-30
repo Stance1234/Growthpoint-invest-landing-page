@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap');
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ibu
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.bread
+{
+    background-image: url(../files/bg-page-title.jpg);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    height: 400px;
+
+    
+    
+
+
+}
+
+.bread div
+{
+    position: relative;
+    top: 0px;
+    padding-top: 15%;
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    
+    
+}
+
+.bread h1
+{
+    font-family: 'roboto', cursive;
+    color: white;
+}
+
+.upper
+{
+    text-transform: uppercase;
+
+}
+
+.ita
+{
+    font-family: 'Playball', cursive;
+}
+
+.mtp
+{
+    margin-top: 5px;
+}
+.btn
+{
+    width: 250px;
+    height: 50px;
+
+}
+
+.feature
+{
+    background: black;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+}
+.feature:hover
+{
+    background-image: linear-gradient(orange,#FB5850);
+    border-radius: 10px;
+    color: black;
+    height: 300px;
+}
+.carder
+{
+    background-image: linear-gradient(orange,#FB5850) !important;
+}
+
+.feature i
+{
+    background: -webkit-linear-gradient(orange,#FB5850);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.roundbtn
+{
+    border-radius: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to left,orange,#FB5850);
+
+
+}
+
+.gradtext
+{
+    background: -webkit-linear-gradient(orange,#FB5850);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.gradtext:hover
+{
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.cred
+{
+    background: #FB5850;
+}
+
+.tred
+{
+    color: #FB5850;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.w3-bar-item
+{
+    font-weight: bold;
+}
+
+.main
+{
+    padding-top: 10%;
+}
+
+#sliders
+{
+    background-image: url("../files/h5-bg-section3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sliders2
+{
+    background-image: url("../files/h5-bg-seciton4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sliders3
+{
+    background-image: url("../files/bg-footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4%;
+}
+
+
+
+
+@media only screen and (max-width: 670px)
+{
+    .main
+    {
+        padding-top: 20%;
+    }
+    .ibu
+    {
+        font-family: 'Poppins', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .bread{
+        height: 280px;
+    }
+    .bread div
+    {
+        padding-top: 25%;
+    }
+}
